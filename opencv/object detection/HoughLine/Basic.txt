@@ -1,0 +1,18 @@
+hough transform basiscs
+Used to detect straight line in image
+
+
+
+A line in the image space can be expressed with two variable 
+cartesian coordianate system y = mx+c
+polar coordinate system = xcos0 + ysin0 = r
+
+
+
+Hough line transformation is used to detect straight lines in an image. 
+It works by transforming the image into a parameter space, where each 
+point in the image corresponds to a sinusoidal curve in the parameter space.
+The intersection points of these curves represent the possible lines in the image.
+The Hough transform is useful because it can detect lines that are partially obscured or broken,
+which can be difficult to detect using other methods. Additionally,
+it is relatively insensitive to noise and can be used to detect lines in noisy images.
